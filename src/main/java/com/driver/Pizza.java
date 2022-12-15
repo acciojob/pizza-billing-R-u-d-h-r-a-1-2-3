@@ -3,7 +3,7 @@ package com.driver;
 public class Pizza {
 
     private int price;        // Calculate final bill price
-    private Boolean isVeg;
+    private boolean isVeg;
     private String bill;
 
     private int cheesePrice;
@@ -78,7 +78,7 @@ public class Pizza {
                 this.bill += "Extra Toppings Added: "+this.toppingsPrice+"\n";
             }
             if(isTakeAwayAdded){
-                this.bill += "Paperbag Added: "+this.takeawayPrice+"\n";
+                this.bill += "Paper bag Added: "+this.takeawayPrice+"\n";
             }
             this.bill += "Total Price :"+this.price;
             this.isBillGenerated = true;
