@@ -79,9 +79,9 @@ public class Pizza {
                 this.bill = this.bill + "Extra Toppings Added: "+this.toppingsPrice+"\n";
             }
             if(isTakeAwayAdded){
-                this.bill = this.bill + "Paper bag Added: "+this.takeawayPrice+"\n";
+                this.bill = this.bill + "Paperbag Added: "+this.takeawayPrice+"\n";
             }
-            this.bill = this.bill + "Total Price :"+this.price+"\n";
+            this.bill = this.bill + "Total Price: "+this.price+"\n";
             this.isBillGenerated = true;
         }
 
